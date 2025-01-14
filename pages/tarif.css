@@ -87,27 +87,28 @@
   
   
   
-  section.section2 div.main1{
+ .main1{
       display: flex;
-      padding-top: 10px;
-  }
-  section.section2 div.main1 div.div1{
-      padding-left: 50px ;
+      padding-top: 5px;            
   } 
-  section.section2 div.main1 div.div1 a img{
+  
+  .main1 div.div1{
+      padding-left: 40px ;
+  }
+.main1 div.div1 a img{
       width:  95px;
   }
-  section.section2 div.main1 div.div2{
+  .main1 div.div2{
       padding-left: 80px ;
       display: flex;
       position: relative;
   } 
   
-  section.section2 div.main1 div.div2 ul li{
+  .main1 div.div2 ul li{
       position: relative; 
       display: inline-block;
   }
-  section.section2 div.main1 div.div2 ul li div.sousmenu{
+   .main1 div.div2 ul .list1 .sousmenu{
           display: none;
           position: absolute;
           color: rgb(19, 94, 242);
@@ -118,51 +119,51 @@
           z-index: 1;
           margin-top: 20px;
           border-radius: 5px;
-          background-color: whitesmoke;
+          background-color: white;
         }
-        section.section2 div.main1 div.div2 ul li  div.sousmenu a i{
+      .main1 div.div2 ul li  div.sousmenu a i{
             margin-right: 20px;
         }
-        section.section2 div.main1 div.div2 ul li div.sousmenu a{
-          color:black;
+      .main1 div.div2 ul li div.sousmenu a{
+          color:rgb(19, 94, 242);
           padding: 12px 16px;
           text-decoration: none;
           display: block;
           text-align: left;
         }
-        section.section2 div.main1 div.div2 ul li div.sousmenu a:hover{
-              color:rgb(19, 94, 242) ;
+        .main1 div.div2 ul li div.sousmenu a:hover{
+              color:rgb(109, 235, 228) ;
         }
-        section.section2 div.main1 div.div2 ul li ul.sousmenu li a{
+        .main1 div.div2 ul li ul.sousmenu li a{
           text-decoration: none;
           color: black;
         }
        
-        section.section2 div.main1 div.div2:hover div.sousmenu{
+         div.main1 div.div2:hover div.sousmenu{
             display: block;
 
         }
   
-  section.section2 div.main1 div.div2 ul{
+  .main1 div.div2 ul{
       list-style-type: none;
       display: flex;
   } 
-  section.section2 div.main1 div.div2 li{
+  .main1 div.div2 li{
       padding-right: 10px;
   }
   
   
-  section.section2 div.main1 div.div2 ul li a{
+  .main1 div.div2 ul li a{
       text-decoration: none;
       color: black
       ;
       padding-right: 10px;
   } 
-  section.section2 div.main1 div.div2 ul li a:hover{
+  .main1 div.div2 ul li a:hover{
       color: rgb(19, 94, 242);
   }
   
-  section.section2 div.main1 div.div2 ul li a span{
+   div.main1 div.div2 ul li a span{
       font-size: 9.5px;
       font-weight: bold ;
       padding-left: 10px;
@@ -170,7 +171,8 @@
   
   
   section.section2 div.main2{
-      margin-top: 10px;
+      margin: auto;
+      
   }
   section.section2 div.main2 div.div1{
       padding-left: 800px;
@@ -184,10 +186,10 @@
       position: relative;
       margin: 0;
   }
-  section.section2 div.main2 div.div1 div.tarif span{
+   span.tarif{
         font-size: 90px;
         color: white;
-        padding-left: 0px;
+        margin-right: 100px;
 
   }
  
@@ -267,17 +269,13 @@
     transition: transform 0.3s ease;
  }
  section.section2  div.main3  div.div2:hover{
-    margin-top: 35px;
-    width: 262px;
-    height: 902px;
+  transform: translateY(-10px);
+  height: 883px;
  }
  section.section2  div.main3  div.div2:hover div.avant{
-    height: 899px;
-    width: 260px;
+  transform: translateY(-10px);
  }
- section.section2  div.main3  div.div2:hover div.avant div.essentiel div.essentiel1 img{
-    width: 260px;
- }
+ 
   section.section2  div.main3  div.div2 div.avant{
     background-color: white;
     width: 248px;
@@ -302,9 +300,12 @@
 
   }
   section.section2  div.main3  div.div2 div.avant div.essentiel div.essentiel2 p span.montant{
-    font-size: 90px;
+    font-size: 80px;
     color: rgb(58, 57, 57);
 
+  }
+  sup{
+    font-size: 30px;
   }
   section.section2  div.main3  div.div2 div.avant div.essentiel div.essentiel2 p span.montant{
     padding-bottom: 5px;
@@ -371,20 +372,15 @@
    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
  }
  section.section2  div.main3  div.div3 {
-    transition: transform 0.3s ease;
- }
- section.section2  div.main3  div.div3:hover{
-    margin-top: 35px;
-    width: 262px;
-    height: 902px;
- }
- section.section2  div.main3  div.div3:hover div.avant{
-    height: 899px;
-    width: 260px;
- }
- section.section2  div.main3  div.div3:hover div.avant div.essentiel div.essentiel1 img{
-    width: 260px;
- }
+  transition: transform 0.3s ease;
+}
+section.section2  div.main3  div.div3:hover{
+transform: translateY(-10px);
+height: 883px;
+}
+section.section2  div.main3  div.div3:hover div.avant{
+transform: translateY(-10px);
+}
  section.section2  div.main3  div.div3 div.avant{
    background-color: white;
    width: 248px;
@@ -409,7 +405,7 @@
 
  }
  section.section2  div.main3  div.div3 div.avant div.essentiel div.essentiel2 p span.montant{
-   font-size: 90px;
+   font-size: 80px;
    color: rgb(58, 57, 57);
 
  }
@@ -477,20 +473,15 @@
    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
  }
  section.section2  div.main3  div.div4 {
-    transition: transform 0.3s ease;
- }
- section.section2  div.main3  div.div4:hover{
-    margin-top: 35px;
-    width: 262px;
-    height: 1203px;
- }
- section.section2  div.main3  div.div4:hover div.avant{
-  height: 1200px;
-    width: 260px;
- }
- section.section2  div.main3  div.div4:hover div.avant div.essentiel div.essentiel1 img{
-    width: 260px;
- }
+  transition: transform 0.3s ease;
+}
+section.section2  div.main3  div.div4:hover{
+transform: translateY(-10px);
+height: 1193px;
+}
+section.section2  div.main3  div.div4:hover div.avant{
+transform: translateY(-10px);
+}
  section.section2  div.main3  div.div4 div.avant{
    background-color: white;
    width: 248px;
@@ -515,7 +506,7 @@
 
  }
  section.section2  div.main3  div.div4 div.avant div.essentiel div.essentiel2 p span.montant{
-   font-size: 90px;
+   font-size: 80px;
    color: rgb(58, 57, 57);
 
  }
@@ -587,20 +578,15 @@
    
  }
  section.section2  div.main3  div.div5 {
-    transition: transform 0.3s ease;
- }
- section.section2  div.main3  div.div5:hover{
-    margin-top: 35px;
-    width: 262px;
-    height: 1203px;
- }
- section.section2  div.main3  div.div5:hover div.avant{
-    height: 1200px;
-    width: 260px;
- }
- section.section2  div.main3  div.div5:hover div.avant div.essentiel div.essentiel1 img{
-    width: 260px;
- }
+  transition: transform 0.3s ease;
+}
+section.section2  div.main3  div.div5:hover{
+transform: translateY(-10px);
+height: 1193px;
+}
+section.section2  div.main3  div.div5:hover div.avant{
+transform: translateY(-10px);
+}
  section.section2  div.main3  div.div5 div.avant{
    background-color: white;
    width: 248px;
@@ -625,7 +611,7 @@
 
  }
  section.section2  div.main3  div.div5 div.avant div.essentiel div.essentiel2 p span.montant{
-   font-size: 90px;
+   font-size: 80px;
    color: rgb(58, 57, 57);
 
  }
@@ -727,19 +713,14 @@ height: 653px;
 box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
 }
 section.section2  div.main4  div.div2 {
-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 section.section2  div.main4  div.div2:hover{
-margin-top: 35px;
-width: 300px;
-height: 653px;
+transform: translateY(-10px);
+height: 643px;
 }
 section.section2  div.main4  div.div2:hover div.avant{
-height: 650px;
-width: 298px;
-}
-section.section2  div.main4  div.div2:hover div.avant div.essentiel div.essentiel1 img{
-width: 300px;
+transform: translateY(-10px);
 }
 section.section2  div.main4  div.div2 div.avant{
 background-color: white;
@@ -765,7 +746,7 @@ padding-left: 10px;
 
 }
 section.section2  div.main4  div.div2 div.avant div.essentiel div.essentiel2 p span.montant{
-font-size: 90px;
+font-size: 80px;
 color: rgb(58, 57, 57);
 
 }
@@ -805,9 +786,8 @@ font-size: 15px;
 section.section2  div.main4  div.div2 div.avant div.essentiel div.essentiel3 ul li p span.second{
 color:rgb(24, 23, 23);
 }
-section.section2  div.main4  div.div2 div.avant div.essentiel div.essentiel3 ul div.acces{
-  text-align: center;
-
+section.section2  div.main4  div.div2 div.avant div.essentiel div.essentiel3 ul div.acces span{
+  border: solid black;
 }
 
 
@@ -844,19 +824,14 @@ height: 653px;
 box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
 }
 section.section2  div.main4  div.div3 {
-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 section.section2  div.main4  div.div3:hover{
-margin-top: 35px;
-width: 300px;
-height: 653px;
+transform: translateY(-10px);
+height: 643px;
 }
 section.section2  div.main4  div.div3:hover div.avant{
-height: 650px;
-width: 298px;
-}
-section.section2  div.main4  div.div3:hover div.avant div.essentiel div.essentiel1 img{
-width: 300px;
+transform: translateY(-10px);
 }
 section.section2  div.main4  div.div3 div.avant{
 background-color: white;
@@ -882,7 +857,7 @@ padding-left: 10px;
 
 }
 section.section2  div.main4  div.div3 div.avant div.essentiel div.essentiel2 p span.montant{
-font-size: 90px;
+font-size: 80px;
 color: rgb(58, 57, 57);
 
 }
@@ -952,19 +927,14 @@ height: 653px;
 box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
 }
 section.section2  div.main4  div.div4 {
-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 section.section2  div.main4  div.div4:hover{
-margin-top: 35px;
-width: 300px;
-height: 653px;
+transform: translateY(-10px);
+height: 643px;
 }
 section.section2  div.main4  div.div4:hover div.avant{
-height: 650px;
-width: 298px;
-}
-section.section2  div.main4  div.div4:hover div.avant div.essentiel div.essentiel1 img{
-width: 300px;
+transform: translateY(-10px);
 }
 section.section2  div.main4  div.div4 div.avant{
 background-color: white;
@@ -990,7 +960,7 @@ padding-left: 10px;
 
 }
 section.section2  div.main4  div.div4 div.avant div.essentiel div.essentiel2 p span.montant{
-font-size: 90px;
+font-size: 80px;
 color: rgb(58, 57, 57);
 
 }
@@ -1230,21 +1200,46 @@ color: white;
       font-weight: 10px;
   }
   
-  section.section3 footer div.footer3 div.div3 img{
-     padding-left: 280px;
-     width: 220px;
+  section.section3 footer div.footer3 div.div3{
+    background: white;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    width: 235px;
+    height: 190px;
+    margin-left: 220px;
+    margin-top: 50px;
+    display: block;
+    padding: 10px;
+  } 
+
+  section.section3 footer div.footer3 div.div3 .img1{
+   display: flex;
   
   } 
+  section.section3 footer div.footer3 div.div3 .img1 img{
+    padding-right: 8px;
+    padding-bottom: 8px;
+   
+   } 
+  section.section3 footer div.footer3 div.div3 .img2{
+    display: flex;
+   
+   } 
+   section.section3 footer div.footer3 div.div3 .img2 img{
+    padding-right: 8px;
+   
+   } 
   section.section3 footer div.footer3 div.div4{
       background-color: whitesmoke;
       width: 100px;
       height: 30px;
-      margin-left: 280px;
+      margin-left: 240px;
       padding-right: 50px;
       padding-left: 70px;
       padding-top: 10px;
       text-align: center;
       border-radius: 10px;
+      margin-top: 10px;
       transition: transform 0.3s ease;
   
   }
@@ -1278,12 +1273,120 @@ color: white;
   div.divfin ul{
       display: flex;
       list-style-type: none;
-      padding-left: 1000px;
+      padding-left: 1100px;
+      
   
   }
-  div.divfin ul li a{
-       
+  div.divfin ul .fin1{
+       margin-top: 10px;
   }
+  div.divfin ul .fin2{
+    margin-top: 5px;
+}
   
   
-  
+
+
+
+
+
+
+
+@media screen and (max-width: 640px){
+
+
+
+
+
+  .section1{
+      width: 480px;
+  }
+  header div.div1 h4{
+      font-size: 10px;
+      padding-left: 10px;
+      display: none;
+      
+  }
+  header div.div2 ul{
+      padding-left: 20px;
+      font-size: 9px;
+  }
+  header div.div2 .C1{
+          display: none;
+  }
+  header div.div2 .C2{
+      margin-left: 140px;
+      font-size: 20px;
+  }
+  header div.div2 .C2 li{
+          margin-left: 10px;
+  }
+  header div.div2 ul li a{
+      display: flex;
+  }
+  header div.div2 ul li a span{
+      font-size: 15px;
+  }
+  header div.div2 ul li a i{
+      padding-left: 4px;
+  }
+  header div.div2 ul div{
+      padding-left: 5px;
+  }
+.section2 .main1 .div2 ul li{
+  display: none;
+}
+
+.section2 .main1 .div1{
+  margin-left: 140px;
+}
+
+
+
+section.section2 div.main2{
+  margin-top: 50px;
+
+}
+
+
+section.section2 div.main2 div.div1{
+   
+    padding-left: 2px;
+    background: url("/home/maeva/frond_end/annexes/image/img5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 480px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+section.section2 div.main2 div.div1::before{
+    content: "";
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to right,rgba(0,149,186,0.808),rgba(108,80,167,0.767));
+    bottom: 0;
+    z-index: 1;
+
+}
+section.section2 div.main2 div.div1 div.salut{
+    font-size: 20px;
+    color: whitesmoke;
+    z-index: 2;
+}
+section.section2  div.main3 div.div1{
+  padding-left: 30px;
+}
+section.section2  div.main3 div.div1 p{
+  padding-left: 10px;
+  font-size: 27px;
+  color: black;color:  rgb(100, 98, 98);
+}
+section.section2  div.main3 div.div1 p span.span2{
+font-size: 15px;
+padding-left: 20px;
+}
+}
